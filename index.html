@@ -37,8 +37,21 @@
         <label for="birthdate">วันเดือนปีเกิด: <span style="color: red;">*</span></label>
         <input type="date" id="birthdate" name="birthdate" required><br><br>
 
+        <label for="bookType">ประเภทของหนังสือที่สนใจ:</label><br>
+        <select id="bookType" name="bookType">
+            <option value="fiction">นิยาย</option>
+            <option value="non-fiction">สารคดี</option>
+            <option value="science">วิทยาศาสตร์</option>
+            <option value="history">ประวัติศาสตร์</option>
+            <option value="finance">ธุรกิจและการเงิน</option>
+            <option value="other">อื่นๆ</option>
+        </select><br><br>
 
+        <label>ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">รับข่าวสารเพิ่มเติมทางอีเมล</label><br><br>
 
+        <button type="submit">สมัครสมาชิก</button>
 
     </form>
 </body>
