@@ -69,3 +69,31 @@ textarea:focus {
     border-color: #4caf50;
     outline: none;
 }
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.4em;
+    }
+    form {
+        padding: 15px;
+    }
+    button[type="submit"],
+    button[type="reset"] {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 400px) {
+    form {
+        padding: 10px;
+        width: 100%;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    button[type="submit"],
+    button[type="reset"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
