@@ -23,3 +23,25 @@ form:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
+
+button[type="submit"],
+button[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+button[type="submit"] {
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    margin-right: 4%;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #66bb6a, #a5d6a7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}   
